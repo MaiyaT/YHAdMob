@@ -1,0 +1,71 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AHKActionSheet (0.5.4)
+  - FBSnapshotTestCase (2.1.1):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.1)
+  - FBSnapshotTestCase/Core (2.1.1)
+  - FBSnapshotTestCase/SwiftSupport (2.1.1):
+    - FBSnapshotTestCase/Core
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - IAPHelper (1.0.8.1)
+  - Masonry (1.0.1)
+  - pop (1.0.9)
+  - SCLAlertView-Objective-C (1.0.4)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - SVProgressHUD (2.0.3)
+  - YHAdMob (1.0.0):
+    - YHBase
+  - YHBase (1.0.0):
+    - AFNetworking
+    - AHKActionSheet
+    - FMDB
+    - IAPHelper
+    - Masonry
+    - pop
+    - SCLAlertView-Objective-C
+    - SDWebImage
+    - SVProgressHUD
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - YHAdMob (from `../`)
+
+EXTERNAL SOURCES:
+  YHAdMob:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AHKActionSheet: f0b312b5c689f72924d231c39dae140ecd5c1d46
+  FBSnapshotTestCase: 432afd8d059ccef7f207225894840a03fbcf7474
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  IAPHelper: fbed593436838c3d40753ded319062b68c00cc38
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SCLAlertView-Objective-C: dd8a12b4068b8bae1b25c1748d7413b5abcad05b
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  YHAdMob: 62fa3923b296c28b6a5365f84e0b413d0131fc43
+  YHBase: 9a421eacd6a5727dadeec1f01ff35f981114e72a
+
+PODFILE CHECKSUM: e8fca762ba93aee0d849f48de86ba440bc4144e2
+
+COCOAPODS: 1.0.0

@@ -1,0 +1,6 @@
+framework module YHBase {
+  umbrella header "YHBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

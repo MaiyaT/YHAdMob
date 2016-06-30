@@ -1,0 +1,69 @@
+{
+  "name": "YHAdMob",
+  "version": "1.0.0",
+  "summary": "GitHub MaiyaT - YHAdMob.",
+  "description": "YHAdMob url is https://github.com/MaiyaT/YHAdMob.git.",
+  "homepage": "https://github.com/MaiyaT/YHAdMob",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "林宁宁": "763465697@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/MaiyaT/YHAdMob.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "YHAdMob/Classes/**/*.{h,m}",
+  "vendored_frameworks": "YHAdMob/lib/*.framework",
+  "preserve_paths": "YHAdMob/lib/*",
+  "vendored_libraries": "YHAdMob/lib/*.a",
+  "resource_bundles": {
+    "YHAdMob": [
+      "YHAdMob/Assets/*.{png,bundle}"
+    ]
+  },
+  "requires_arc": true,
+  "public_header_files": "GoogleMobileAds/GoogleMobileAds.h",
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC -lstdc++",
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "true",
+    "ENABLE_BITCODE": "false"
+  },
+  "frameworks": [
+    "UIKit",
+    "MapKit",
+    "AdSupport",
+    "CoreLocation",
+    "QuartzCore",
+    "SystemConfiguration",
+    "CoreTelephony",
+    "Security",
+    "StoreKit",
+    "CoreGraphics",
+    "ImageIO",
+    "CoreLocation",
+    "MobileCoreServices",
+    "CFNetwork",
+    "CoreText",
+    "Foundation"
+  ],
+  "libraries": [
+    "z",
+    "stdc++",
+    "sqlite3",
+    "iconv",
+    "z.1.2.5",
+    "icucore",
+    "z.1"
+  ],
+  "dependencies": {
+    "YHBase": [
+
+    ]
+  }
+}
