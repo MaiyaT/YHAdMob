@@ -20,6 +20,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		7A27445E1D24FCBE006F5F57 /* YHAdMob.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 7A27445D1D24FCBE006F5F57 /* YHAdMob.podspec */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		E0E7702B192FED9C97B0A109 /* Pods_YHAdMob_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B649F98D7A2E50C8487672F /* Pods_YHAdMob_Example.framework */; };
 		F96BE33029455D190AA2C6AD /* Pods_YHAdMob_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FEF75CD2EEDF7665464488 /* Pods_YHAdMob_Tests.framework */; };
@@ -60,9 +61,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		65F97931C288FA218857478C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		74C8026B7EAE070C1991F033 /* Pods-YHAdMob_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHAdMob_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YHAdMob_Example/Pods-YHAdMob_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7A27445D1D24FCBE006F5F57 /* YHAdMob.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = YHAdMob.podspec; path = ../YHAdMob.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8EC74BD62EEEB3EAC7DC61CB /* Pods-YHAdMob_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHAdMob_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YHAdMob_Example/Pods-YHAdMob_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AC8A92A35A81E37AEBD2D3C2 /* YHAdMob.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YHAdMob.podspec; path = ../YHAdMob.podspec; sourceTree = "<group>"; };
 		D2FEF75CD2EEDF7665464488 /* Pods_YHAdMob_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHAdMob_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50E5B430E6B2518DE57D55C /* Pods-YHAdMob_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHAdMob_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YHAdMob_Tests/Pods-YHAdMob_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -175,7 +176,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				AC8A92A35A81E37AEBD2D3C2 /* YHAdMob.podspec */,
+				7A27445D1D24FCBE006F5F57 /* YHAdMob.podspec */,
 				429E792D2DC22A1E0011DA94 /* README.md */,
 				65F97931C288FA218857478C /* LICENSE */,
 			);
@@ -279,6 +280,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				7A27445E1D24FCBE006F5F57 /* YHAdMob.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
